@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    background-image: url(./assets/uncharted-lost-legacy-8k-gaming-n6mip4po428kdyfy.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+nav span {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 25px 35px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+nav span i {
+    font-size: 40px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 0.661);
+    transition: all ease-in-out 0.3s;
+}
+
+nav ul li:hover {
+    color: white;
+}
+
+nav ul button {
+    margin-right: 15px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 50px;
+    height: 32px;
+    width: 32px;
+    color: white;
+    font-size: 15px;
+    transition: all ease-in-out 0.3s;
+}
+
+nav ul button:hover {
+    background-color: rgba(255, 255, 255, 0.207);
+}
+nav .i-1{
+color: white;
+font-size: 28px;
+margin-top: 15px;
+display: none;
+}
+
+.hero {
+    padding: 80px 130px;
+    color: white;
+}
+
+.real-span p {
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 162px;
+    border-radius: 50px;
+    margin-bottom: 24px;
+}
+
+.hero h1 {
+    font-size: 65px;
+    line-height: 65px;
+    font-family: 'Passion One', cursive;
+    margin-bottom: 30px;
+}
+
+.hero h1 span {
+    color: rgb(255, 0, 115);
+    font-family: 'Passion One', cursive;
+    text-decoration: underline;
+}
+
+.hero .p-1 {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.509);
+    line-height: 20px;
+    letter-spacing: 0px;
+    border-left: 2px solid rgb(255, 0, 115);
+    padding-left: 15px;
+    margin-bottom: 40px;
+}
+
+.btn-section {
+    display: flex;
+}
+
+.btn-section button {
+    height: 52px;
+    width: 160px;
+    font-family: 'Passion One', cursive;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 8px;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.535);
+    margin-right: 40px;
+    transition: all ease-in-out 0.5s;
+}
+
+.btn-section button:hover {
+    background: #362e81;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #303087, #382db1, #3b3198);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1e1e80, #221984, #1f1572);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color: aliceblue;
+}
+
+.btn-section {
+    display: flex;
+    align-items: center;
+}
+
+.btn-section span {
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.btn-section div {
+    border-radius: 50px;
+    padding: 8px;
+    background-color: rgba(127, 255, 212, 0.159);
+    margin-right: 10px;
+}
+
+.btn-section div i {
+    font-size: 18px;
+    color: aquamarine;
+
+}
+
+.btn-section span p {
+    font-size: 11px;
+    color: aquamarine;
+}
+@media(max-width:768px){
+    .main-container{
+        height: auto !important;
+        background-position:-750px 0px;
+    }
+    nav{
+    background: rgba(0, 0, 0, 0.556);
+padding:0 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .i-1{
+        display: block;
+    }
+    nav span{
+        padding: 18px;
+    }
+    nav span i{
+        font-size: 28px;
+    }
+.hero{
+    padding:140px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 91vh;
+}
+.hero h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.hero .p-1{
+font-size: 10px;
+padding-left: 8px;
+}
+.btn-section{
+margin-top: 70px !important;
+}
+
+}
